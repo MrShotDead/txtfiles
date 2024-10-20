@@ -1,0 +1,6 @@
+sheeka_bald_trilogy = open ("txt_a.txt","r")
+no = sheeka_bald_trilogy.read()
+print (no)
+sheeka_bald_trilogy_number_2 = open ("txt_b.txt","w")
+sheeka_bald_trilogy_number_2.write (no)
+sheeka_bald_trilogy_number_2.close ()
